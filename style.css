@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'roboto', sans-serif;
+}
+
+/*INICIO HEADER*/
+.nav{
+    background-color: #181818;
+    height: 85px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+} 
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 40px;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: #DDD;
+    padding: 15px;
+}
+
+.nav-list a:hover {
+    color: #FFFFFF;
+}
+/*FIM HEADER*/
+
+/*INICIO MAIN*/
+
+.main{
+    width: 100%;
+    background-color: #000;
+    height: calc(100vh - 80px);
+    background-image: url("img/programador.png");
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+}
+
+.main h1{
+    color: #FFFFFF;
+    font-size: 55px;
+}
+
+.main p{
+    color: #1e96FC;
+    font-size: 25px;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.call-to-action{
+    cursor: pointer;
+    background-color: #FFFFFF;
+    border: 0;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.call-to-action:hover{
+    transform: scale(1.1);
+}
+
+.main a{
+    text-decoration: none;
+    color: #181818;
+}
+
+/*FIM MAIN*/
